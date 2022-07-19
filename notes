@@ -1,0 +1,61 @@
+Database:is a physical storage where data is store
+
+ Database management system:allows user to manipulate(fetching ,updating) the data which is stored in database
+ Eg:MySQl,SQLSERVER ,MongogDB
+
+ Relational Database(MySQL):data is store  in table,rows and columns.To have a relationship between one table and another table
+
+Example:MySQl,SQLSERVER ,oracle-->the all use SQL as basic language to connect to database
+               Student
+sId     Name    Roll number   courses    Age      tId
+1       xxx     202389         Maths      20       3
+2       xyx     202385         Maths      10       3
+
+
+
+             Teacher
+tId     Name     Salary       Address
+3       yyy      10000         chennai
+4       yyy      13000         chennai
+
+Non-Relational Datbase(MongoDB):Data is store in the form of BSON(JSON).No relation exist 
+
+
+SQL(scripting language):structured query language=>it is an language which write a query to manipulate and allows the user to manipulate data in database.Language to connect to relational database
+
+Mysql connects to database to what user asked for .user connects to MySQl with the help of SQL.And mySql return the data in the form of table.
+
+like we need vs code editor to write js code,similarly to work with MySQL we need a tool mysql workbench
+
+Tool:to communicate withDBMS ,to execute SQL query
+Ex:MySQL workbench,phpMyAdmin
+
+VARCHAR:datatype in MySQL similar as string(collection of characters),having max size 65,535 bytes
+blob datatype:string more than size 65,535 bytesTrancsation Control Language
+char datatype:single character
+enum datatype:set of values 
+bit:0 and 1
+
+
+SQL can be divided into 4 major statements:
+1.DDL:Data Defination Language=>means i am doing some change in defination of table(column),not changing in data of table(row),all our defination and schema operation comes under DDL,it  can also be said as change in schema or change in structure of table(create ,alter,drop all these are called query)
+CREATE:
+create database
+create table
+create view
+create trigger
+
+Alter: its an statement to update the table  content
+
+DROP:query for  deleting the  column,table, database
+
+
+2.DML:Data Manipulation Language=>all crud operation under table comes inside DML(insert,update,delete,truncate)
+
+1.Insert-->insert a row
+2.update
+3.Delete
+4.Truncate
+
+3.DQl:Data Query Language=> use for quering the data by using Select
+4.TCL:
